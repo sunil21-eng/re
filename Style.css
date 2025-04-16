@@ -84,10 +84,10 @@ img{
 
 
 .slide-1{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Img/Slide-2.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/Img/Slider-min.jpg");
 }
 .slide-2{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/Slide-2.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/Slide-2-min.jpg");
 }
 
 /***---About---**/
@@ -134,7 +134,7 @@ img{
 #features{
     width: auto;
     height: 625px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/Why\ to\ choos\ us.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/Why\ to\ choos\ us-min.jpg");
 }
 
 .feature{
@@ -164,7 +164,7 @@ img{
 #Review{
     width: auto;
     height: 825px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/OurclientSay.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/OurclientSay-min.jpg");
 }
 
 .review img{
@@ -196,7 +196,7 @@ img{
 
 footer{
     height: 400px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/Why\ to\ choos\ us.jpg");
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/Why\ to\ choos\ us-min.jpg");
     padding-top: 130px;
 
 }

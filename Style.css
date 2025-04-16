@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans:wght@300..700&display=swap');
+
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    margin:auto ;
+}
+.Logo{
+    width: 150px;
+    height: 90px;
+    border-radius: 15px;
+}
+
+body{
+    font-family: "spline sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: black;
+}
+
+a{
+   color: rgb(210, 198, 198);
+   text-decoration: none;
+   transition: all 0.4s;
+   font-weight: 600;
+}
+.nav-link:hover{
+    color: orange;
+
+}
+.btn{
+    color: white;
+    background-color: orange;
+    border: orange;
+}
+.bg-cover{
+    background-position: center !important ;
+    background-size:cover !important;
+    background:no-repeat ;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgb(180, 167, 167);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    
+
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.shadow-on-hover{
+    transition: 0.4s;
+
+}
+.shadow-on-hover:hover{
+
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+img{
+    width: 100%;
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before{
+    content:"";
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+
+
+
+.slide-1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Img/Slider.jpg)
+}
+.slide-2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Img/Slide-2.jpg)
+}
+
+/***---About---**/
+
+#about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: orange;
+}
+
+
+.into-text{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.into-text p{
+    margin: 16px auto 10px auto;
+    max-width: 1000px;
+}
+
+#Menu.nav-link{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+.star{
+    color: orange;
+    border: 1px black;
+    font-size: 20px;
+
+}
+.dish{
+    border-radius: 15px;
+    height: 450px
+}
+
+
+/*---Features--*/
+
+
+#features{
+    width: auto;
+    height: 625px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Img/Why\ to\ choos\ us.jpg);
+}
+
+.feature{
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.215)
+}
+.feature-icon{
+    width: 80px;
+    height: 80px;
+    color: white;
+    background-color: orange;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*------team---*/
+
+.chef-img{
+    border-radius: 50%;
+    box-shadow: -10px -10px 0 orange;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+/*------Review---*/
+#Review{
+    width: auto;
+    height: 825px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Img/OurclientSay.jpg)
+}
+
+.review img{
+    width: 200px;
+    height: 200px;
+}
+.ri-double-quotes-r{
+    color: orange;
+    font-size: 40px;
+}
+.carousel-indicators {
+    margin-bottom: -25px;
+}
+
+.form-control:focus{
+    border-color: orange; 
+}
+
+.form-control{
+    height: 50  px;
+}
+
+.btnform{
+    width: 100%;
+
+}
+
+/*------Footer---*/
+
+footer{
+    height: 400px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Img/Why\ to\ choos\ us.jpg);
+    padding-top: 130px;
+
+}
+.social-links a{
+    font-size: 40px;
+    cursor: pointer;
+}
+.social-links a :hover{
+    color: orange;
+}
+
+.footer-bottom{
+
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.485);
+}

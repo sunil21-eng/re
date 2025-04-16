@@ -134,7 +134,7 @@ img{
 #features{
     width: auto;
     height: 625px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Img/Why\ to\ choos\ us.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Img/Why\ to\ choos\ us.jpg");
 }
 
 .feature{

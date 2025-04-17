@@ -213,3 +213,28 @@ footer{
     padding-top: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.485);
 }
+
+@media screen and (max-width:800px){
+    #Logo{
+        height: 70px;
+        width: 100px;
+    }
+    #navbarNav{
+        background-color: white;
+        color: black solid ;
+    }
+
+    #footer{
+        height: auto;
+        padding: 10px;
+    
+    }
+    #features{
+        height: auto;
+        padding: 10px;
+    }
+    .col-lg-3{
+        margin: 10px;
+    }
+    
+}

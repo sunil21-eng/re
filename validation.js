@@ -24,7 +24,7 @@ $("#reservation-form").validate({
         },
         message:{
             required:true,
-        },
+        }
         
     }
 
